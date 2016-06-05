@@ -1,0 +1,168 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.masthead {
+  background: white;
+  margin: 0 auto;
+  margin-top: 70px;
+
+}
+
+body {
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #747704;
+  background: #FFFFFF;
+  margin-bottom: 60px;
+  padding-top: 70px;
+}
+
+p {
+  line-height: 24px;
+  }
+
+.footer {
+  margin-top: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #FFFFFF;
+}
+
+.footer ul {
+  text-align: center;
+}
+
+.footer li {
+  display: inline;
+  padding: 70px;
+}
+
+#imdb {
+  font-weight: 700;
+  font-size: 2em;
+  height: 45px;
+  width: 45px;
+  font-style: "Oswald";
+  text-decoration: none;
+}
+
+.navbar {
+  border: none;
+  background: #fff;
+  min-height: 90px;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 7%;
+  padding-right: 7%;
+  max-height: 45px
+}
+
+.navbar .nav > li > a {
+  line-height: 50px;
+}
+
+.navbar-brand {
+  height: 75px;
+  padding-top: 0;
+}
+
+.thumbnail {
+  padding: 0px !important;
+  max-height: 145px;
+  position:relative;
+  overflow:hidden;
+}
+
+.btn-group {
+  margin-top: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+}
+
+.btn {
+  border: none;
+}
+
+#videos_main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/*filtering style attributes*/
+.filtr-item {
+    padding: 1rem;
+}
+
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+
+
+/* Filter controls -- with thanks to Filterizr JQuery library (yiotis.net/filterizr)*/
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.simplefilter li {
+    background-color: #585858;
+}
+.simplefilter li.active {
+    background-color: #212121;
+}
+.multifilter li {
+    background-color: #4b9eff;
+}
+.multifilter li.active {
+    background-color: #2265b4;
+}
+
+
+/*Overlay effects*/
+
+.caption {
+    position: absolute;
+    top:0;
+    right:0;
+    background: #666666;
+    opacity: 0.9;
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    font-family: 'Source Sans Pro', italic;
+    font-size: 18px;
+    text-align: center;
+    color:#fff !important;
+    z-index:2;
+}
+
+.caption p {
+  font-family: 'Source Sans Pro', italic;
+}
+
+/* For about page:*/
+
+#bio {
+  margin-top: 80px;
+  font-size: 18px;
+}
+
