@@ -38,6 +38,7 @@ $(function() {
     $("img.lazy").lazyload();
 });
 
+$("img.lazy").show().lazyload();
 
 //Filterizr
 
