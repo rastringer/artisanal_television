@@ -79,6 +79,17 @@ p {
   max-height: 145px;
   position:relative;
   overflow:hidden;
+  border: none;
+}
+
+img {
+  border: none;
+}
+
+/*Prevent Lazyload placeholders showing at same time as images*/
+
+.lazy {
+    display: none;
 }
 
 /*Query to change background color of collapsed menu*/
