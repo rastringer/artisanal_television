@@ -173,7 +173,6 @@ img {
     padding:2%;
     display: none;
     font-family: 'Source Sans Pro', italic;
-    font-size: 18px;
     text-align: center;
     color:#fff !important;
     z-index:2;
@@ -181,6 +180,12 @@ img {
 
 .caption p {
   font-family: 'Source Sans Pro', italic;
+}
+
+@media (max-width: 520px) {
+   .caption p {
+       display: none;
+   }
 }
 
 /* For about page:*/
