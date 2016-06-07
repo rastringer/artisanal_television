@@ -25,7 +25,8 @@ p {
   }
 
 .footer {
-    text-align: center;
+  position: relative;
+  text-align: center;
   margin-top: 40px;
   bottom: 0;
   width: 100%;
@@ -39,7 +40,7 @@ p {
 }
 
 .footer li {
-    text-align: center;
+  text-align: center;
   display: inline;
   padding: 20px;
 }
@@ -98,10 +99,6 @@ p {
   border: none;
 }
 
-#videos_main {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 
 /*filtering style attributes*/
