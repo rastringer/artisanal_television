@@ -102,6 +102,11 @@ p {
 
 
 /*filtering style attributes*/
+
+.filtr-container {
+  position: relative;
+}
+
 .filtr-item {
     padding: 1rem;
 }
