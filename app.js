@@ -32,6 +32,12 @@ $( document ).ready(function() {
 });
 
 
+//Lazy Load
+
+$(function() {
+    $("img.lazy").lazyload();
+});
+
 
 //Filterizr
 

@@ -74,6 +74,11 @@ p {
   padding-top: 0;
 }
 
+img {
+  width: 225px;
+  height: 100px;
+}
+
 .thumbnail {
   padding: 0px !important;
   max-height: 145px;
