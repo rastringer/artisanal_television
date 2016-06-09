@@ -5,10 +5,11 @@ html {
 }
 
 .masthead {
+  position: relative;
   background: white;
-  margin: 0 auto;
   margin-top: 70px;
-
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 body {
@@ -40,6 +41,7 @@ p {
 
 .footer img {
   max-height: 20px;
+  opacity: .75;
 }
 
 .navbar {
@@ -58,6 +60,7 @@ p {
 .navbar .nav > li > a {
   line-height: 50px;
   color: #000000;
+  opacity: .75;
 }
 
 
@@ -68,6 +71,7 @@ p {
 
 #button_group {
   font-size: 12px;
+  opacity: .75;
 }
 
 .thumbnail {
@@ -184,6 +188,7 @@ img {
 
 .caption h4 {
   font-size: 12px;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 520px) {
@@ -196,13 +201,11 @@ img {
 
 #bio {
   margin-top: 80px;
-  font-size: 12px;
+  font-size: 16px;
   font-family: 'Roboto', sans-serif;
   color: #000000;
+  line-height: 2px;
+  opacity: .75;
 }
 
-#twitter_pic {
-  max-height: 300px;
-  max-width: 200px;
-}
 
