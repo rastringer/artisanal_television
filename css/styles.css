@@ -41,6 +41,10 @@ p {
   opacity: .75;
 }
 
+.footer img:hover {
+  opacity: 0.3;
+}
+
 .navbar {
   border: none;
   background: #fff;
@@ -60,15 +64,26 @@ p {
   opacity: .75;
 }
 
+.navbar .nav > li > a:hover {
+  opacity: 0.3;
+}
 
 .navbar-brand {
   height: 75px;
   padding-top: 0;
 }
 
+.navbar-brand:hover {
+  opacity: 0.5;
+}
+
 #button_group {
   font-size: 12px;
   opacity: .75;
+}
+
+.btn:hover {
+  opacity: 0.3;
 }
 
 .thumbnail {
