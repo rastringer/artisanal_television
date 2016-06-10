@@ -17,6 +17,17 @@ p {
   line-height: 24px;
   }
 
+a {
+  text-decoration: none;
+  color: #000000;
+  }
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.5;
+   }
+
 .footer {
   margin-top: 40px;
   bottom: 0;
