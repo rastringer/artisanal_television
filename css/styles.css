@@ -13,6 +13,17 @@ body {
   padding-top: 70px;
 }
 
+#splash_image {
+   width: 400px;
+   height: 180px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -150px;
+   margin-top: -150px;
+}
+}
+
 p {
   line-height: 24px;
   }
@@ -27,10 +38,6 @@ a:hover {
   color: #000000;
   opacity: 0.5;
    }
-
-#splash_image {
-  max-width: 500px;
-}
 
 .footer {
   margin-top: 40px;
