@@ -1,7 +1,7 @@
 
 html {
   position: relative;
-  min-height: 100%;
+  height: 100%;
 }
 
 body {
@@ -225,13 +225,6 @@ img {
   padding-bottom: 5px;
 }
 
-@media (max-width: 520px) {
-   .caption p {
-       display: none;
-   }
-}
-
-/* For about page:*/
 
 #bio {
   margin-top: 80px;
@@ -241,5 +234,20 @@ img {
   line-height: 2px;
   opacity: .75;
 }
+
+
+@media (max-width: 520px) {
+   .caption p {
+       display: none;
+   }
+}
+
+@media only screen and (max-width: 415px) {
+  #splash_image {
+    margin-left: -200px;
+  }
+}
+
+/* For about page:*/
 
 
